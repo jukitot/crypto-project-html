@@ -231,11 +231,67 @@ section.block-3 .block-3-text h2 {
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: flex-end;*/
 
 }
 section.block-3 .block-3-text h2 > svg {
     margin: 0 10px;
+}
+
+.block-3-button {
+    width: 126px;
+    height: 68px;
+    border-radius: 16px;
+    border: 1px solid #56CAB1;
+    position: relative;
+    margin-top: 20px;
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.block-3-button-block {
+    width: 126px;
+    height: 68px;
+    border-radius: 16px;
+    border: 1px solid #56CAB1;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+.block-3-info {
+    margin-top: 34px;
+    width: 521px;
+    height: 132px;
+    border-radius: 18px;
+    background: #3A5B6A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+}
+
+.block-3-info .info {
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 18px;
 }
