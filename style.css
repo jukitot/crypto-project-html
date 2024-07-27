@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +12,7 @@ body {
     margin: auto;
     display: flex;
     flex-direction: column;
-    background-color:#02061A;
+    background-color: #02061A;
 }
 
 .circle {
@@ -77,6 +78,7 @@ section.block-1 {
 .block-1-text {
     flex-direction: column;
 }
+
 .block-1-img {
     width: 467.417px;
     height: 461.312px;
@@ -139,3 +141,46 @@ section.block-1 .block-1-text .buttons button:nth-child(2) {
 }
 
 /*section-2*/
+section.block-2 {
+    margin: 0 auto;
+
+}
+
+section.block-2 h2 {
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+section.block-2 .block-2-block {
+    width: 1065px;
+    height: 125px;
+    border: 1px solid #5BD2BD;
+    background: #23263C;
+    opacity: 0.5;
+}
+
+section.block-2 .block-2-block > ul {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 138px;
+}
+
+section.block-2 .block-2-block > ul > li {
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
