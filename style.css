@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -183,4 +183,59 @@ section.block-2 .block-2-block > ul > li {
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+}
+
+/*section-3*/
+
+section.block-3 {
+    margin: 197px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
+
+section.block-3 .block-3-text h1 {
+    width: 542px;
+    height: 219px;
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73px;
+}
+
+section.block-3 .block-3-text h1 span.color {
+    color: #56CAB1;
+}
+
+section.block-3 .block-3-text > p {
+    color: #4C99BB;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    width: 521px;
+    margin-bottom: 6px;
+}
+
+section.block-3 .block-3-text h2 {
+    width: 450px;
+    height: 100px;
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+section.block-3 .block-3-text h2 > svg {
+    margin: 0 10px;
 }
