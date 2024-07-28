@@ -8,7 +8,6 @@
 
 body {
     width: 100vw;
-    height: 100vh;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -499,4 +498,47 @@ section.block-5 .blocks-review .review img {
     border-radius: 50%;
     position: absolute;
     top: -75px;
+}
+
+/*section-6*/
+
+section.block-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 1063px;
+    height: 378px;
+    border-radius: 20px;
+    background: linear-gradient(97deg, #1F143B -19.45%, #3C8273 103.56%);
+}
+
+section.block-6 h1 {
+    width: 300px;
+    height: 180px;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 100% */
+}
+
+section.block-6 button {
+    width: 344px;
+    height: 85px;
+    border-radius: 50px;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 150% */
+    text-transform: uppercase;
+    border:none;
+    margin-top: 39px;
 }
