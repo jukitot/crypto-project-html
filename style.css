@@ -507,7 +507,7 @@ section.block-6 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 0 auto 262px auto;
     width: 1063px;
     height: 378px;
     border-radius: 20px;
@@ -541,4 +541,114 @@ section.block-6 button {
     text-transform: uppercase;
     border:none;
     margin-top: 39px;
+}
+
+/*footer*/
+footer {
+    margin: 0 auto 134px auto;
+    display: flex;
+    gap: 126px;
+}
+
+footer > p {
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+footer > ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 19px;
+    flex-direction: column;
+}
+
+footer > ul > li {
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    list-style: none;
+
+}
+
+footer > ul > li:first-child {
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+footer .join p {
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+footer .join .button-email {
+    margin-top: 9px;
+    width: 253px;
+    height: 60px;
+    border-radius: 50px;
+    background: #3B7C70;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .join .button-email input {
+
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 120px;
+    border: none;
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+footer .join .button-email input:focus {
+    outline: none;
+}
+
+footer .join .button-email input::placeholder {
+    color: white;
+}
+
+footer .join .button-email button {
+    margin-right: 2px;
+    width: 100px;
+    height: 58px;
+    border-radius: 50px;
+    background: #262E48;
+    border: none;
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+footer .join .button-email button:focus {
+    outline: none;
 }
