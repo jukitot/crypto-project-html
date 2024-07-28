@@ -348,8 +348,6 @@ section.block-4 .block-4-img {
 }
 section.block-4 .block-4-img .img h2 {
     color: #56CAB1;
-
-    -webkit-text-stroke-color: #02061A;
     font-family: Outfit;
     font-size: 40px;
     font-style: normal;
@@ -361,7 +359,6 @@ section.block-4 .block-4-img .img h2 {
 
 section.block-4 .block-4-img .img p {
     color: #FFF;
-
     font-family: Outfit;
     font-size: 35px;
     font-style: normal;
@@ -382,7 +379,6 @@ section.block-4 .block-4-img .img p span.color {
 }
 
 section.block-4 .block-4-img .img:nth-child(1) {
-
     width: 380.311px;
     height: auto;
     border-radius: 10px;
@@ -392,17 +388,14 @@ section.block-4 .block-4-img .img:nth-child(1) {
     z-index: -1;
     top: -130px;
     left: -270px;
-
 }
 
 section.block-4 .block-4-img .img:nth-child(2) {
     border-radius: 10px;
     background: rgba(137, 130, 130, 0.50);
-
 }
 
 section.block-4 .block-4-img .img:nth-child(2) .block {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -425,9 +418,85 @@ section.block-4 .block-4-img .img:nth-child(2) .block .free {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 section.block-4 .block-4-img .img:nth-child(1) img {
     width: 380.121px;
+}
+
+/*section-5*/
+section.block-5 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 208px;
+}
+section.block-5 > p {
+    color: #5BD2BF;
+    font-family: Outfit;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+section.block-5 > h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 427px;
+}
+section.block-5 .blocks-review {
+    display: flex;
+    gap: 14px;
+}
+section.block-5 .blocks-review .review {
+    width: 345px;
+    height: 360px;
+    border-radius: 10px;
+    background: #24293F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 27px;
+    position: relative;
+    margin-top: 147px
+}
+
+section.block-5 .blocks-review .review h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+section.block-5 .blocks-review .review p {
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+section.block-5 .blocks-review .review img {
+    mix-blend-mode: luminosity;
+    border-radius: 50%;
+    position: absolute;
+    top: -75px;
 }
