@@ -616,6 +616,7 @@ section.block-6 button {
     border: none;
     margin-top: 39px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 section.block-6 button:hover {
