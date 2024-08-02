@@ -13,6 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #02061A;
+    overflow-x: hidden;
 }
 
 .circle {
@@ -313,15 +314,15 @@ section.block-3 .block-3-text .price > svg {
     border-radius: 16px;
     border: 1px solid #56CAB1;
     position: absolute;
-    top: -10px;
-    left: -10px;
+    top: -6px;
+    left: -5px;
     cursor: pointer;
 }
 
 .block-3-b {
     width: 126px;
     margin-left: 10px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .block-3-b:hover .block-3-button-block {
